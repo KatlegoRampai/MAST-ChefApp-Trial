@@ -1,0 +1,247 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#F7F2EC',
+  },
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: 20,
+    backgroundColor: '#C79D5D',
+  },
+  headerLogo: {
+    width: 40,
+    height: 40,
+    marginRight: 10,
+  },
+  welcomeText: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#fff',
+    fontFamily: 'Montserrat_700Bold',
+  },
+  logoContainer: {
+    alignItems: 'center',
+    marginBottom: 50,
+  },
+  mainLogo: {
+    width: 200,
+    height: 200,
+  },
+  brandName: {
+    fontFamily: 'Montserrat_700Bold',
+    fontSize: 36,
+    marginTop: 10,
+  },
+  slogan: {
+    fontFamily: 'Arial',
+    fontSize: 18,
+    color: '#C79D5D',
+  },
+  buttonContainer: {
+    width: '80%',
+    maxWidth: 300,
+    alignSelf: 'center',
+  },
+  loginButton: {
+    backgroundColor: '#C79D5D',
+    padding: 10,
+    borderRadius: 20,
+    alignItems: 'center',
+    marginBottom: 10,
+  },
+  buttonText: {
+    color: '#fff',
+    fontSize: 18,
+    fontFamily: 'Montserrat_700Bold',
+  },
+  statsContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    padding: 20,
+  },
+  statBlock: {
+    backgroundColor: '#fff',
+    padding: 10,
+    borderRadius: 10,
+    alignItems: 'center',
+    width: '45%',
+  },
+  statTitle: {
+    fontSize: 14,
+    fontWeight: 'bold',
+    marginBottom: 5,
+  },
+  statValue: {
+    fontSize: 18,
+    color: '#C79D5D',
+  },
+  menuList: {
+    flex: 1,
+    padding: 20,
+  },
+  menuItem: {
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    backgroundColor: '#fff',
+    padding: 45,
+    borderRadius: 5,
+    marginBottom: 10,
+  },
+  menuItemHome: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    backgroundColor: '#fff',
+    padding: 10,
+    borderRadius: 5,
+    marginBottom: 10,
+  },
+  menuItemEdit: {
+    flexDirection: 'row',
+    backgroundColor: '#fff',
+    padding: 15,
+    borderRadius: 8,
+    marginBottom: 10,
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 3,
+    elevation: 3,
+  },
+  menuItemContent: {
+    flex: 1,
+  },
+  menuItemTitle: {
+    fontSize: 16,
+    flex: 1,
+  },
+  menuItemPrice: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#C79D5D',
+  },
+  menuItemDescription: {
+    fontSize: 14,
+    fontWeight: 'bold',
+    fontStyle: 'italic',
+    color: 'black',
+  },
+  menuItemDetails: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginTop: 5,
+  },
+  menuItemCourse: {
+    fontSize: 14,
+    color: '#666',
+    marginRight: 10,
+  },
+  navBar: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    padding: 10,
+    backgroundColor: '#C79D5D',
+  },
+  navButton: {
+    padding: 10,
+  },
+  navButtonText: {
+    color: '#fff',
+    fontSize: 16,
+  },
+  searchBar: {
+    backgroundColor: '#fff',
+    padding: 10,
+    margin: 20,
+    borderRadius: 5,
+  },
+  form: {
+    padding: 20,
+  },
+  input: {
+    backgroundColor: '#fff',
+    padding: 10,
+    marginBottom: 10,
+    borderRadius: 5,
+  },
+  picker: {
+    backgroundColor: '#fff',
+    marginBottom: 10,
+  },
+  saveButton: {
+    backgroundColor: '#C79D5D',
+    padding: 10,
+    borderRadius: 15,
+    alignItems: 'center',
+    marginTop: 10,
+  },
+  checkbox: {
+    width: 24,
+    height: 24,
+    borderWidth: 2,
+    borderColor: '#C79D5D',
+    borderRadius: 5,
+    marginRight: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  deleteButton: {
+    padding: 10,
+  },
+  sectionTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    marginBottom: 10,
+  },
+  // New styles for date selection and menu filtering
+  dateButton: {
+    backgroundColor: '#fff',
+    padding: 15,
+    borderRadius: 8,
+    marginVertical: 10,
+    marginHorizontal: 20,
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: '#C79D5D',
+  },
+  dateButtonText: {
+    fontSize: 16,
+    color: '#C79D5D',
+    fontFamily: 'Montserrat_700Bold',
+  },
+  menuControls: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: 20,
+    marginVertical: 10,
+  },
+  toggleButton: {
+    backgroundColor: '#C79D5D',
+    padding: 10,
+    borderRadius: 6,
+    flex: 0.45,
+    alignItems: 'center',
+  },
+  coursePicker: {
+    flex: 0.5,
+    height: 50,
+    backgroundColor: '#fff',
+    borderRadius: 6,
+    borderWidth: 1,
+    borderColor: '#C79D5D',
+  },
+  menuItemSelected: {
+    backgroundColor: '#F7F2EC',
+    borderWidth: 1,
+    borderColor: '#C79D5D',
+  },
+});
